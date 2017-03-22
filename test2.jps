@@ -1,0 +1,9 @@
+{
+  "type": "update",
+  "name": 111,
+  "onInstall": {
+    "restartNodes": {
+      "nodeGroup": "cp"
+    }
+  }
+}
