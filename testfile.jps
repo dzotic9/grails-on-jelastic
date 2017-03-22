@@ -2,6 +2,6 @@
   "type": "update",
   "name": 111,
   "onInstall": {
-    "createFile [cp]": "/tmp/newFile.txt"
+    "createFile [cp]": "/tmp/${this.fileName}.txt"
   }
 }
